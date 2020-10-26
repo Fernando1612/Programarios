@@ -5,7 +5,7 @@ import tkinter.font as tkFont
 class ventanaAyuda:
     def __init__(self, master):
         self.master = master
-        self.master.title('Regla Falsa')
+        self.master.title('Ayuda')
         self.master.geometry('300x400')
         self.master.config(bg='#49A')
         self.frame = Frame(self.master, bg ='#49A' )

@@ -1,11 +1,9 @@
 from tkinter import *
-from tkinter import ttk
 from math import sin
 from  math import cos
 from  math import tan
 from  math import exp
 import tkinter.font as tkFont
-import tkinter as tk
 
 #Clase para la ventana
 class ventanaReglaFalsa:
@@ -67,6 +65,7 @@ class ventanaReglaFalsa:
         #Condicion
         condition = True
         iteracion = 1
+        #Se rompre el ciclo cuando la condicion es falsa
         while condition:
             #Formula para xi
             raiz = a + (a - b) * f(a) / (f(b) - f(a))
